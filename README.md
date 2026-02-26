@@ -53,6 +53,8 @@ Pipeline ini menghasilkan beberapa layer data di folder data/curated/:
 * **top_products:** Daftar 5 produk dengan penjualan terbanyak.
 * **avg_transaction:** Kebiasaan belanja rata-rata per pelanggan.
 
+## Bukti Eksekusi Program
+![Bukti Eksekusi](screenshots/BUKTI_PYTHON_BERHASIL_DIEKSEKUSI.png)
 ---
 
 **Author:** **Ivan Dwika Bagaskara** *Rain*
