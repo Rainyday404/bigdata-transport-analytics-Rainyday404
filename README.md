@@ -1,4 +1,5 @@
-#  E-Commerce Sales Dashboard & Batch Analytics
+``markdown
+# 🛒 E-Commerce Sales Dashboard & Batch Analytics
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
@@ -44,7 +45,12 @@ Bukti bahwa *script* PySpark berhasil mengekspor data hasil agregasi ke dalam di
 
 ### 4. Screenshot Terminal Saat Menjalankan Script
 Bukti eksekusi *script* analisis `python scripts/analytics_layer.py` yang berjalan sukses tanpa error di terminal WSL/Ubuntu.
-![Eksekusi Terminal](screenshots/terminal_saat_menjalankan_analytics_layer.png)
+
+**Bagian 1:**
+![Eksekusi Terminal 1](screenshots/terminal_saat_menjalankan_analytics_layer_1.png)
+
+**Bagian 2:**
+![Eksekusi Terminal 2](screenshots/terminal_saat_menjalankan_analytics_layer_2.png)
 
 ---
 
@@ -62,7 +68,8 @@ bigdata-project/
 ├── screenshots/             # Folder berisi bukti screenshot tugas
 │   ├── dashboard_Power_BI.png
 │   ├── folder_serving_dataset.png
-│   └── terminal_saat_menjalankan_analytics_layer.png
+│   ├── terminal_saat_menjalankan_analytics_layer_1.png
+│   └── terminal_saat_menjalankan_analytics_layer_2.png
 │
 ├── venv/                    # Virtual Environment Python
 ├── .gitignore
@@ -71,7 +78,7 @@ bigdata-project/
 
 ```
 
-## Prasyarat & Cara Menjalankan Proyek
+##  Prasyarat & Cara Menjalankan Proyek
 
 **Prasyarat Sistem:**
 Pastikan sistem (Linux/WSL) sudah terinstal Python 3, Java (OpenJDK 11/8), dan Apache Spark.
@@ -79,25 +86,25 @@ Pastikan sistem (Linux/WSL) sudah terinstal Python 3, Java (OpenJDK 11/8), dan A
 **Langkah-langkah eksekusi:**
 
 1. Aktifkan *virtual environment*:
+
 ```bash
 source venv/bin/activate
 
 ```
 
-
 2. Instal *library* PySpark (jika belum ada):
+
 ```bash
 pip install pyspark
 
 ```
 
-
 3. Jalankan *script* utama PySpark:
+
 ```bash
 python scripts/analytics_layer.py
 
 ```
-
 
 4. Buka file `bigdata_dashboard.pbix` menggunakan aplikasi **Power BI Desktop**. Klik tombol **Refresh** pada menu *Home* untuk memuat data CSV terbaru dari folder `data/serving`.
 
