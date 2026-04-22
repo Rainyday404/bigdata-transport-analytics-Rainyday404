@@ -79,7 +79,7 @@ Jalankan setiap perintah pada terminal terpisah di dalam root project:
 ### B. Proses Streaming & Generation
 | Komponen | Screenshot |
 | :--- | :---: |
-| **Data Generator** | ![Generator](./screenshots/screenshot_generator_berjalan_berhasil.png) |
+| **Data Generator** | ![Generator](./screenshots/generator.png) |
 | **Spark Engine** | ![Spark Streaming](./screenshots/screenshot_spark_streaming.png) |
 
 ### C. Analisis & Visualisasi (Insight)
